@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMiscellaneous"
+    android:background="@color/searchButton"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_12sdp"
+    android:gravity="center_vertical"
+    app:behavior_peekHeight="@dimen/_40sdp"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    >
+
+
+
+    <ImageView
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_rejected"
+        android:layout_marginLeft="@dimen/_70sdp"/>
+
+
+    <TextView
+        android:id="@+id/layoutDeleteNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:fontFamily="@font/bungee"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:includeFontPadding="false"
+        android:text="@string/delete_note"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+</LinearLayout>

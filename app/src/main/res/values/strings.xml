@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smore\'s</string>
+    <string name="my_notes">S\'MORES</string>
+    <string name="search_notes">Search Notes</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="note_title">Note Title</string>
+    <string name="type_note_here">Type note here...</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you  want to delete this note?</string>
+    <string name="cancel_dialog">Cancel</string>
+</resources>
